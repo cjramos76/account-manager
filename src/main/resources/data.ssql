@@ -1,0 +1,6 @@
+insert into pessoa (id) values (1);
+insert into pessoa_fisica (cpf, data_nascimento, nome_completo, id) values (23601472856, '1976-03-17 00:00:00', 'carlos jose ramos miguel', 1);
+insert into pessoa (id) values (2);
+insert into pessoa_juridica (cpnj, nome_fantasia, razao_social, id) values (111222333450001, 'nome fantasia 2', 'razon social 2', 2);
+insert into conta (id, data_criacao, nome, saldo, pessoa) values (1, '2018-03-01 00:00:00', 1, 'conta 1', 1000, 1);
+insert into conta (id, data_criacao, nome, saldo, pessoa) values (2, '2018-03-01 00:00:00', 2, 'conta 2', 1000, 2);
